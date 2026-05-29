@@ -1,0 +1,16 @@
+version: "3.9"
+name: KrisztinaZsovar
+services:
+  vite-app:
+    image: node:20
+    container_name: krisztina-zsovar-app
+    working_dir: /app
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "5175:5173"
+    restart: always
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    command: sh -c "npm install && npm run dev -- --host"
