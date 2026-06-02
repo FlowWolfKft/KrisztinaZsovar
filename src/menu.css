@@ -1,34 +1,22 @@
 :root {
-  /*--dark-green: #2698ac;
-  --turkiz: #43fde6;
-  --zold: #80c9d8;
-  --homok: #d9d9d9;
-  --body-text: #434f49;
-  --pink: #e9a9c4;
-  --title: #2a3937;
-  --dark-pink: #dc6ea6;
-  --radius: 0.5rem;
-  --white: #fff;
-  
-  --ice-blue: #e9faff;*/
   --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.12);
 
-  --dark-green: #3e524c;
-  --petrol-green: #094457;
-  --medium-green: #679587;
-  --green: #8a9e94;
-  --light-green: #b6c0b3;
   --homok: #d9d9d9;
-  --body-text: #434f49;
-  --pink: #e9a9c4;
-  --dark-pink: #dc6ea6;
+  --body-text: #2b2b2b;
   --title: #2a3937;
   --white: #fff;
-  --ice-blue: #e9faff;
-  --light-blue: #a0bbe4;
-  --dark-blue: #2a6aca;
   --grey: #acacac;
+  --brown: #4f3c29;
+  --dark-beige: #f6f1e7;
+  --medium-beige: #cbbba0;
+  --soft-beige: #e7ddcf;
   --radius: 0.5rem;
+  --terrakotta: #c98a72;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 *,
 *:before,
@@ -43,10 +31,8 @@
   top: 0;
   z-index: 999;
   backdrop-filter: blur(12px);
-  /*background: rgba(10, 10, 10, 0.7);*/
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-}
 
+}
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
@@ -56,7 +42,7 @@
 /* ===== LOGO ===== */
 
 #logo a {
-  color: white;
+  /*color: white;*/
   font-size: 1.2rem;
   letter-spacing: 0.12em;
   font-weight: 700;
@@ -75,7 +61,7 @@
 
 #main-menu ul li a {
   position: relative;
-  color: rgba(255, 255, 255, 0.82);
+  /*color: rgba(255, 255, 255, 0.82);*/
   font-size: 0.95rem;
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -94,14 +80,14 @@
   width: 0%;
   height: 2px;
 
-  background: linear-gradient(90deg, #d394cb 0%, #ffffff 100%);
+  background: linear-gradient(90deg, #2a3937 0%, #ffffff 100%);
 
   border-radius: 999px;
   transition: width 0.35s ease;
 }
 
 #main-menu ul li a:hover {
-  color: white;
+  color: var(--medium-beige);
 }
 
 #main-menu ul li a:hover::after {

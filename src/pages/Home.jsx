@@ -1,5 +1,12 @@
 import React from "react";
+import Hero from "../components/Hero";
+import Description from "../components/Description";
 function Home() {
-  return <>Hello Világ</>;
+  return (
+    <>
+      <Hero></Hero>
+      <Description></Description>
+    </>
+  );
 }
 export default Home;
