@@ -38,10 +38,9 @@ function FAQ() {
       <h2>Gyakori kérdések</h2>
 
       {faqs.map((faq, index) => (
-        <div key={index} className="faq-item">
+        <div key={index} className="faq-item" onClick={() => setOpenIndex(openIndex === index ? null : index)}>
           <button
             className="faq-question"
-            onClick={() => setOpenIndex(openIndex === index ? null : index)}
           >
             <span>{faq.question}</span>
             <span className="sign">{openIndex === index ? "−" : "+"}</span>

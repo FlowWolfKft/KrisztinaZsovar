@@ -357,6 +357,7 @@ a.button {
   box-shadow: var(--shadow-soft);
   margin-bottom: 1.5rem;
   border-radius: 18px;
+  cursor: pointer;
 }
 
 .faq-question {
