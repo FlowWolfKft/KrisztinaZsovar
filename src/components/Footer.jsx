@@ -1,11 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaFacebook, FaInstagram, FaLinkedin, FaBehance } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 function Footer() {
-   return (
+  return (
     <footer className="footer">
       <div className="column-4">
+        <div className="footer-links">
+          <a
+            href="https://www.pixelliberty.hu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            © 2026 PixelLiberty
+          </a>
+        </div>
         <div className="footer-links">
           <Link to="/impressum" rel="noopener noreferrer">
             Impresszum
@@ -17,15 +26,9 @@ function Footer() {
             Adatkezelési Tájékoztató
           </Link>
         </div>
-        <div  className="footer-links"> 
-          <a
-            href="https://www.pixelliberty.hu"
-            target="_blank"
-            rel="noopener noreferrer">
-           © 2026 PixelLiberty</a>
-        </div>
+
         <div className="social-icons">
-                  <a
+          <a
             href="https://www.facebook.com/profile.php?id=61571804105911"
             target="_blank"
             rel="noopener noreferrer"
@@ -39,7 +42,7 @@ function Footer() {
             rel="noopener noreferrer"
           >
             <FaInstagram />
-          </a>         
+          </a>
         </div>
       </div>
     </footer>

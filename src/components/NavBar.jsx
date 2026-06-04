@@ -24,7 +24,7 @@ function Navbar() {
           <nav id="main-menu" className={isOpen ? "nyitva" : ""}>
             <ul>
               <li>
-                <Link to="/" onClick={() => setIsOpen(false)}>
+                <Link to="/About" onClick={() => setIsOpen(false)}>
                   Rólam
                 </Link>
               </li>

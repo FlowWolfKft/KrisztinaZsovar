@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaSeedling } from "react-icons/fa";
+import {
+  FaSpa,
+  FaBatteryHalf,
+  FaRegHeart,
+  FaSeedling,
+  FaUsers,
+} from "react-icons/fa";
 
 function Description() {
   return (
@@ -52,19 +58,20 @@ function Description() {
               az energiaszintedet
             </li>
             <li>
-              <FaSeedling className="icon" /> a hormonbarát életmódodat
+              <FaSeedling className="icon" />a hormonbarát életmódodat
             </li>
             <li>
               <FaSeedling className="icon" />a mozgásodat
             </li>{" "}
             <li>
-              <FaSeedling className="icon" /> az önbizalmadat
+              <FaSeedling className="icon" />
+              az önbizalmadat
             </li>{" "}
             <li>
-              <FaSeedling className="icon" /> a nőiességedet
+              <FaSeedling className="icon" />a nőiességedet
             </li>{" "}
             <li>
-              <FaSeedling className="icon" /> a lelki és energetikai
+              <FaSeedling className="icon" />a lelki és energetikai
               egyensúlyodat
             </li>
           </ul>
@@ -78,25 +85,46 @@ function Description() {
             Ez a program úgy lett megalkotva, hogy ne kelljen külön keresgélned:
           </p>
           <ul>
-            <li> mit egyél</li>
-            <li> hogyan mozogj</li>
-            <li> hogyan kezeld a hormonális változásokat</li>
-            <li> hogyan csökkentsd a gyulladásos terhelést</li>
-            <li> hogyan szerezd vissza az energiádat</li>
-            <li> hogyan szeresd újra a testedet</li>
-            <li> hogyan kapcsolódj vissza a nőiességedhez</li>
+            <li>
+              <FaSpa className="icon" />
+              mit egyél
+            </li>
+            <li>
+              <FaSpa className="icon" /> hogyan mozogj
+            </li>
+            <li>
+              {" "}
+              <FaSpa className="icon" /> hogyan kezeld a hormonális változásokat
+            </li>
+            <li>
+              {" "}
+              <FaSpa className="icon" /> hogyan csökkentsd a gyulladásos
+              terhelést
+            </li>
+            <li>
+              <FaSpa className="icon" /> hogyan szerezd vissza az energiádat
+            </li>
+            <li>
+              {" "}
+              <FaSpa className="icon" /> hogyan szeresd újra a testedet
+            </li>
+            <li>
+              {" "}
+              <FaSpa className="icon" /> hogyan kapcsolódj vissza a
+              nőiességedhez
+            </li>
           </ul>
           <p>Itt egy komplex, megtartó rendszer vár Rád.</p>
           <p>Neked szól, ha:</p>
           <ul>
-            <li> híztál az utóbbi időben</li>
-            <li> hormonális változásokat tapasztalsz</li>
-            <li> gyakran fáradtnak érzed magad</li>
-            <li> nehezebben alszol</li>
-            <li> puffadsz vagy nehéznek érzed magad</li>
-            <li> nincs motivációd a mozgáshoz</li>
-            <li> nem érzed magad igazán nőiesnek</li>
-            <li> vissza akarod kapni a ragyogásodat</li>
+            <li>✓ híztál az utóbbi időben</li>
+            <li>✓ hormonális változásokat tapasztalsz</li>
+            <li>✓ gyakran fáradtnak érzed magad</li>
+            <li>✓ nehezebben alszol</li>
+            <li>✓ puffadsz vagy nehéznek érzed magad</li>
+            <li>✓ nincs motivációd a mozgáshoz</li>
+            <li>✓ nem érzed magad igazán nőiesnek</li>
+            <li>✓ vissza akarod kapni a ragyogásodat</li>
           </ul>
           <p>Mire számíthatsz?</p>
           <p>A program végére sok nő azt tapasztalja, hogy:</p>
@@ -125,13 +153,30 @@ function Description() {
                 <h3>A programban fókuszálunk:</h3>
 
                 <ul>
-                  <li>✓ gyulladáscsökkentő életmódra</li>
-                  <li>✓ bélflóra támogatásra</li>
-                  <li>✓ hormonbarát étkezési szemléletre</li>
-                  <li>✓ energiaszint támogatására</li>
-                  <li>✓ testsúlyoptimalizálásra</li>
-                  <li>✓ alvás támogatására</li>
-                  <li>✓ adaptogénekre és természetes támogatásra</li>
+                  <li>
+                    <FaSeedling className="icon" /> gyulladáscsökkentő életmódra
+                  </li>
+                  <li>
+                    <FaSeedling className="icon" /> bélflóra támogatásra
+                  </li>
+                  <li>
+                    <FaSeedling className="icon" /> hormonbarát étkezési
+                    szemléletre
+                  </li>
+                  <li>
+                    <FaSeedling className="icon" />
+                    energiaszint támogatására
+                  </li>
+                  <li>
+                    <FaSeedling className="icon" /> testsúlyoptimalizálásra
+                  </li>
+                  <li>
+                    <FaSeedling className="icon" /> alvás támogatására
+                  </li>
+                  <li>
+                    <FaSeedling className="icon" />
+                    adaptogénekre és természetes támogatásra
+                  </li>
                 </ul>
               </div>
 
