@@ -1,19 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import symbol from "../../assets/img/main-logo-symbol.png";
 
 function Hero() {
   return (
-    <div className="hero content-box">
-      <div className="row">
-        <div className="col-1-3">
-          {/* <img
-            src={pixellibertyImg}
-            alt="About kép"
-            className="pixelliberty-img"
-          /> */}
-        </div>
+    <div className="hero">
+      <h1>NŐI ESSZENCIA (Femme essense)</h1>
+      <div className="content-box row">
         <div className="col-2-3">
-          <h1>NŐI ESSZENCIA (Femme essense)</h1>
           <h2>8 hetes online női transzformációs életmódprogram</h2>
           <p>
             Kifejezetten azoknak a nőknek, akik szeretnék visszakapni az
@@ -26,6 +20,7 @@ function Hero() {
             Jelentkezem!
           </Link>
         </div>
+        <div className="col-1-3"></div>
       </div>
     </div>
   );

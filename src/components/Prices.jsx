@@ -5,16 +5,16 @@ import { FaSeedling } from "react-icons/fa";
 function Prices() {
   return (
     <div className="content-box">
-      <h1>Jelentkezés/ Árak</h1>
-      <p>
-        Kattints a jelentkezés gombra, add meg a Neved és az email címed, melyen
-        felvehetem Veled a kapcsolatot!
-      </p>
-      <ul>
-        <li>Early Bird június 14-ig: 110.000 Ft</li>
+      <h1>Árak</h1>{" "}
+      <ul className="price-card">
+        <li>Early Bird (június 14-ig): 110.000 Ft</li>
         <li>Június 15-től: 160.000 Ft</li>
         <li>Páros jelentkezés: 200.000 Ft / 2 fő</li>
       </ul>
+      <h3>
+        Kattints a jelentkezés gombra, add meg a Neved és az email címed, hogy
+        felvehessem Veled a kapcsolatot!
+      </h3>
       <Link to="/contact" className="contact-btn">
         Jelentkezem!
       </Link>

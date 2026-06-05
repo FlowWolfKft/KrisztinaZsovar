@@ -12,6 +12,7 @@
   --soft-beige: #e7ddcf;
   --radius: 0.5rem;
   --terrakotta: #c98a72;
+  --gold: #a88057;
 }
 *,
 *:before,
@@ -31,7 +32,6 @@
   top: 0;
   z-index: 999;
   backdrop-filter: blur(12px);
-
 }
 .nav-wrapper {
   display: flex;
@@ -87,7 +87,7 @@
 }
 
 #main-menu ul li a:hover {
-  color: var(--medium-beige);
+  color: var(--gold);
 }
 
 #main-menu ul li a:hover::after {

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.12);
+  --shadow-soft: 0 12px 32px rgba(120, 90, 60, 0.08);
 
   --homok: #d9d9d9;
   --body-text: #2b2b2b;
@@ -15,6 +15,7 @@
   --terrakotta: #c98a72;
   --simply-red: #a44768;
   --beige: #c8b29b;
+  --gold: #a88057;
   --radius: 0.5rem;
 }
 *,
@@ -65,11 +66,14 @@ h1 {
 h2 {
   font-size: 2rem;
   margin-top: 0;
+  font-style: oblique;
+  color: var(--simply-red);
   position: relative;
   padding-bottom: 1rem;
 }
 h3 {
   font-size: 1.5rem;
+  color: var(--gold);
 }
 p {
   font-family: inter;
@@ -85,21 +89,29 @@ a {
 a:hover {
   color: var(--dark-beige);
 }
-.icon {
+.essense {
+  font-family: "Playfair display";
+  font-weight: 400;
+  font-style: oblique;
+  font-size: 2rem;
   color: var(--simply-red);
+  padding-left: 0.5rem;
+}
+.icon {
+  color: var(--gold);
   flex-shrink: 0;
   margin-right: 12px;
 }
 .card {
-  background: var(--homok);
+  background-color: var(--white);
   border: 2px solid var(--homok);
   padding: 1.5rem;
   margin-bottom: 2rem;
-  background: rgba(255, 255, 255, 0.08);
+  background: var(white);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 24px;
+  border-radius: 8px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
   transition: all 0.35s ease;
 }
@@ -109,6 +121,12 @@ a:hover {
 ul {
   padding-left: 0px;
 }
+.price-card li {
+  border-radius: 16px;
+  margin: 24px 0;
+  gap: 16px;
+}
+
 /*.services-btn {
   display: inline-block;
   padding: 0.8rem;
@@ -163,22 +181,23 @@ ul li {
   font-family: inherit;
   font-size: inherit;
   line-height: 1;
-  transition: transform 0.2s ease;
+  /*transition: transform 0.2s ease;*/
   margin-bottom: 2rem;
 }
 .contact-btn:hover,
 .contact-form button:hover {
-  padding: 0.8rem;
-  color: var(--terrakotta);
+  /*padding: 0.8rem;*/
+  color: #a88057;
   background-color: transparent;
   box-shadow: var(--shadow-soft);
   transition: all 0.25s ease;
-  border: 2px solid var(--terrakotta);
+  border: 2px solid var(--gold);
   border-radius: 32px;
   font-family: inherit;
   font-size: inherit;
+  font-weight: 500;
   line-height: 1;
-  transform: scale(1.1);
+  /*transform: scale(1.1);*/
 }
 .popup-overlay {
   position: fixed;
@@ -222,7 +241,37 @@ a.button {
 }
 .hero {
   overflow: hidden;
+  /* height: 100vh;
+  width: 100%;
+
+  background-image: url("/img/02.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  background-position: right center;  EZ */
 }
+.main {
+  background-color: var(--dark-beige);
+  padding: 2rem 0;
+}
+.main-card {
+  background-color: var(--white);
+  padding: 1rem;
+  box-shadow: var(--shadow-soft);
+  border-radius: 8px;
+}
+
+.main-icon {
+  color: var(--simply-red);
+  width: 48px;
+  height: 48px;
+  stroke-width: 1;
+  margin-bottom: 2rem;
+}
+.icon-svg {
+  text-align: center;
+}
+
 /*.hero p {
   padding: 0 24px;
 }
@@ -231,15 +280,22 @@ a.button {
 }*/
 
 .about-img {
-  border-radius: 12px;
-  box-shadow: var(--shadow-soft);
-  border: 2px solid var(--homok);
+  /*border-radius: 12px;
+  box-shadow: var(--shadow-soft);*/
+  opacity: 0.8;
   max-width: 100%;
+  margin-top: 2rem;
+  text-align: center;
 }
 .about-text {
   margin-left: 2rem;
 }
-
+.whycreate-bg {
+  background-image: url("/img/about.png");
+  background-size: contain;
+  background-position: 80%;
+  background-repeat: no-repeat;
+}
 .contact-form {
   display: flex;
   flex-direction: column;
