@@ -81,6 +81,7 @@ p {
 
   line-height: 1.6;
 }
+.hero h3{color:inherit}
 a {
   color: var(--body-text);
   text-decoration: none;

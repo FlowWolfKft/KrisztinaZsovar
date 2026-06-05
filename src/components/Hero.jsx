@@ -9,13 +9,13 @@ function Hero() {
       <div className="content-box row">
         <div className="col-2-3">
           <h2>8 hetes online női transzformációs életmódprogram</h2>
-          <p>
+          <h3>
             Kifejezetten azoknak a nőknek, akik szeretnék visszakapni az
             energiájukat, a nőiességüket és a ragyogásukat. Ha nem csak fogyni
             szeretnél, hanem újra Nőnek akarod érezni magad.
-          </p>
-          <p>Időpont:</p>
-          <p>2026. július 1. - augusztus 26.</p>
+          </h3>
+          <h3>Időpont:</h3>
+          <h2>2026. július 1. - augusztus 26.</h2>
           <Link to="/contact" className="contact-btn">
             Jelentkezem!
           </Link>
