@@ -5,6 +5,7 @@ import WhyCreate from "../components/WhyCreate";
 import Prices from "../components/Prices";
 import FAQ from "../components/FAQ";
 import FeedBack from "../components/FeedBack";
+
 function Home() {
   return (
     <>

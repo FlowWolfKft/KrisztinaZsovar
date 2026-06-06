@@ -64,7 +64,7 @@ h1 {
   text-align: center;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-top: 0;
   font-style: oblique;
   color: var(--simply-red);
@@ -81,7 +81,9 @@ p {
 
   line-height: 1.6;
 }
-.hero h3{color:inherit}
+.hero h3 {
+  color: inherit;
+}
 a {
   color: var(--body-text);
   text-decoration: none;
@@ -126,6 +128,9 @@ ul {
   border-radius: 16px;
   margin: 24px 0;
   gap: 16px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--brown);
 }
 
 /*.services-btn {
@@ -281,21 +286,21 @@ a.button {
 }*/
 
 .about-img {
-  /*border-radius: 12px;
-  box-shadow: var(--shadow-soft);*/
-  opacity: 0.8;
-  max-width: 100%;
   margin-top: 2rem;
-  text-align: center;
+  opacity: 0.9;
+  width: 100%;
+}
+.symbol-img {
+  display: block;
+  margin-left: auto;
+  opacity: 0.2;
 }
 .about-text {
   margin-left: 2rem;
 }
-.whycreate-bg {
-  background-image: url("/img/about.png");
-  background-size: contain;
-  background-position: 80%;
-  background-repeat: no-repeat;
+.contact-bg {
+  background: var(--dark-beige);
+  padding: 2rem 0;
 }
 .contact-form {
   display: flex;
@@ -307,7 +312,7 @@ a.button {
 .contact-form input,
 .contact-form textarea {
   padding: 16px;
-  border: 1px solid #ffffff20;
+  border: 1px solid var(--gold);
   border-radius: 16px;
   background: #ffffff08;
   color: white;
@@ -328,7 +333,7 @@ a.button {
 }
 
 .contact-form ::placeholder {
-  color: #ffffff80;
+  color: var(--body-text);
 }
 
 .checkbox {
@@ -346,7 +351,7 @@ a.button {
 }
 
 .checkbox a {
-  color: var(--dark-pink);
+  color: var(--simply-red);
   text-decoration: none;
 }
 
@@ -360,7 +365,7 @@ a.button {
   padding: 16px 24px;
   border: none;
   border-radius: 32px;
-  background: var(--green);
+  background: var(--gold);
   color: white;
   font-size: 1rem;
   font-weight: 600;

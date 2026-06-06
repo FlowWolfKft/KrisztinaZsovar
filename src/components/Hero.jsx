@@ -16,7 +16,7 @@ function Hero() {
           </h3>
           <h3>Időpont:</h3>
           <h2>2026. július 1. - augusztus 26.</h2>
-          <Link to="/contact" className="contact-btn">
+          <Link to="/Contact" className="contact-btn">
             Jelentkezem!
           </Link>
         </div>

@@ -37,7 +37,7 @@ function Navbar() {
 
 
               <li>
-                <Link to="/contact" onClick={() => setIsOpen(false)}>
+                <Link to="/Contact" onClick={() => setIsOpen(false)}>
                   Jelentkezem!
                 </Link>
               </li>

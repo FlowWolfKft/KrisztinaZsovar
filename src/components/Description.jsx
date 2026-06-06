@@ -32,6 +32,12 @@ function Description() {
                 <li className="icon-svg">
                   <Heart className="main-icon" />
                 </li>
+                <p>
+                  Ha valahol mélyen azt érzed: "Nem ilyen nő vagyok valójában."
+                  Tudod, hogy benned él még az a ragyogó, energikus, szép, nőies
+                  önmagad, csak most szükséged van egy útra, ami visszavezet
+                  hozzá.
+                </p>
                 <li>
                   <FaSeedling className="icon" />
                   Kimerültnek érzed magad?
@@ -50,12 +56,7 @@ function Description() {
                   <FaSeedling className="icon" /> Kevesebb az energiád?
                 </li>
               </ul>
-              <p>
-                És valahol mélyen azt érzed: "Nem ilyen nő vagyok valójában."
-                Tudod,ogy benned él még az a ragyogó, energikus, szép, nőies
-                önmagad, csak most szükséged van egy útra, ami visszavezet
-                hozzá.
-              </p>
+
               <p>Nem egy újabb diéta. Nem egy újabb kudarc.</p>
             </div>
             <div className="main-card">
