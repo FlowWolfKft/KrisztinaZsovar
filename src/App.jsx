@@ -5,7 +5,7 @@ import Layout from "./layout/Layout";
 import Home from "./pages/Home";
 import CookieBanner from "./components/CookieBanner";
 import About from "./components/About";
-import Privacy from "./components/Privacy";
+import Privacy from "./pages/Privacy";
 import ScrollToHash from "./components/ScrollToHash";
 import React from "react";
 
