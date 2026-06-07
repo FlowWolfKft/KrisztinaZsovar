@@ -2,9 +2,9 @@
   --gap: 30px;
 }
 .content-box,
-.blog-bg ,
-.services ,
-.fullwide ,
+.blog-bg,
+.services,
+.fullwide,
 .contact,
 .services,
 .pack,
@@ -144,10 +144,11 @@
     --gap: 15px;
   }
   .column-2 > div,
-  .column-3 > div {
+  .column-3 > div,
+  .column-4 > div {
     width: 100%;
   }
-  .column-4 > div,
+
   .column-5 > div,
   .column-6 > div {
     width: calc((100% - (1 * var(--gap))) / 2);

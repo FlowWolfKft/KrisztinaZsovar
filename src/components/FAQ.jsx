@@ -35,24 +35,27 @@ function FAQ() {
 
   return (
     <section className="content-box faq-section">
-      <h2>Gyakori kérdések</h2>
-
-      {faqs.map((faq, index) => (
-        <div key={index} className="faq-item" onClick={() => setOpenIndex(openIndex === index ? null : index)}>
-          <button
-            className="faq-question"
+      <div id="faq">
+        <h1>Kérdések- Válaszok</h1>
+        {faqs.map((faq, index) => (
+          <div
+            key={index}
+            className="faq-item"
+            onClick={() => setOpenIndex(openIndex === index ? null : index)}
           >
-            <span>{faq.question}</span>
-            <span className="sign">{openIndex === index ? "−" : "+"}</span>
-          </button>
+            <button className="faq-question">
+              <span>{faq.question}</span>
+              <span className="sign">{openIndex === index ? "−" : "+"}</span>
+            </button>
 
-          {openIndex === index && (
-            <div className="faq-answer">
-              <p>{faq.answer}</p>
-            </div>
-          )}
-        </div>
-      ))}
+            {openIndex === index && (
+              <div className="faq-answer">
+                <p>{faq.answer}</p>
+              </div>
+            )}
+          </div>
+        ))}{" "}
+      </div>
     </section>
   );
 }

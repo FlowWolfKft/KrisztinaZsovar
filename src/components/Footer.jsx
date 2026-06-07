@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
+import symbol from "../../assets/img/main-logo-symbol.png";
 
 function Footer() {
   return (
@@ -14,11 +15,6 @@ function Footer() {
           >
             © 2026 PixelLiberty
           </a>
-        </div>
-        <div className="footer-links">
-          <Link to="/impressum" rel="noopener noreferrer">
-            Impresszum
-          </Link>
         </div>
 
         <div className="footer-links">
@@ -43,6 +39,9 @@ function Footer() {
           >
             <FaInstagram />
           </a>
+        </div>
+        <div className="footer-links">
+          <img src={symbol} alt="About kép" className="symbol-img" />
         </div>
       </div>
     </footer>

@@ -5,10 +5,10 @@ import aboutImg from "../../assets/img/02.webp";
 
 function WhyCreate() {
   return (
-    <div className="content-box"><h1>Miért hoztam létre ezt a programot?</h1>
+    <div className="content-box">
+      <h1>Miért hoztam létre ezt a programot?</h1>
       <div className="column-2">
         <div>
-          
           <h3>
             Néhány évvel ezelőtt én magam is átmentem egy erős testi változáson.
           </h3>

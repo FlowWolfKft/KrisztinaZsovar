@@ -6,8 +6,8 @@ function Hero() {
   return (
     <div className="hero">
       <h1>NŐI ESSZENCIA (Femme essense)</h1>
-      <div className="content-box row">
-        <div className="col-2-3">
+      <div className="content-box column-2">
+        <div>
           <h2>8 hetes online női transzformációs életmódprogram</h2>
           <h3>
             Kifejezetten azoknak a nőknek, akik szeretnék visszakapni az
@@ -20,7 +20,9 @@ function Hero() {
             Jelentkezem!
           </Link>
         </div>
-        <div className="col-1-3"></div>
+        <div>
+          <img src={symbol} alt="About kép" className="symbol-img" />
+        </div>
       </div>
     </div>
   );

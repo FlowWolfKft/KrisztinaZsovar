@@ -30,11 +30,10 @@ function Navbar() {
               </li>
 
               <li>
-                <Link to="/#services" onClick={() => setIsOpen(false)}>
+                <Link to="/#faq" onClick={() => setIsOpen(false)}>
                   Gyakran Ismételt Kérdések
                 </Link>
               </li>
-
 
               <li>
                 <Link to="/Contact" onClick={() => setIsOpen(false)}>

@@ -19,6 +19,7 @@ import {
   Flower2Icon,
   Sprout,
 } from "lucide-react";
+import symbol from "../../assets/img/main-logo-symbol.png";
 
 function Description() {
   return (
@@ -166,31 +167,43 @@ function Description() {
       </div>
       <div className="content-box">
         <h1>Mire számíthatsz?</h1>
-        <h2>A program végére sok nő azt tapasztalja, hogy:</h2>
-        <ul>
-          <li>
-            {" "}
-            <Sprout className="icon" />
-            könnyedebbnek, energikusabbnak érzi magát
-          </li>
+        <div className="column-2">
+          <div>
+            <h2>A program végére sok nő azt tapasztalja, hogy:</h2>
+            <ul>
+              <li>
+                {" "}
+                <Sprout className="icon" />
+                könnyedebbnek, energikusabbnak érzi magát
+              </li>
 
-          <li>
-            {" "}
-            <Sprout className="icon" />
-            tudatosabban étkezik, újra szeret mozogni
-          </li>
+              <li>
+                {" "}
+                <Sprout className="icon" />
+                tudatosabban étkezik, újra szeret mozogni
+              </li>
 
-          <li>
-            {" "}
-            <Sprout className="icon" />
-            javul a napi ritmusa, nőiesebbnek érzi magát
-          </li>
-          <li>
-            {" "}
-            <Sprout className="icon" />
-            magabiztosabban néz tükörbe, jobb kapcsolata van önmagával
-          </li>
-        </ul>
+              <li>
+                {" "}
+                <Sprout className="icon" />
+                javul a napi ritmusa, nőiesebbnek érzi magát
+              </li>
+              <li>
+                {" "}
+                <Sprout className="icon" />
+                magabiztosabban néz tükörbe, jobb kapcsolata van önmagával
+              </li>
+            </ul>
+            <Link to="/Contact" className="contact-btn">
+              Jelentkezem!
+            </Link>
+          </div>
+          <div>
+            <div>
+              <img src={symbol} alt="About kép" className="symbol-img" />
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="main">

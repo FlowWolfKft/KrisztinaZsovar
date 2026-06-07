@@ -29,9 +29,12 @@
 
 #header {
   position: sticky;
+  width: 100%;
+  z-index: 1000;
   top: 0;
   z-index: 999;
   backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-soft);
 }
 .nav-wrapper {
   display: flex;
@@ -42,7 +45,7 @@
 /* ===== LOGO ===== */
 
 #logo a {
-  /*color: white;*/
+  color: var(--gold);
   font-size: 1.2rem;
   letter-spacing: 0.12em;
   font-weight: 700;
@@ -67,6 +70,8 @@
   letter-spacing: 0.04em;
   transition: 0.3s ease;
   padding: 0.5rem 0;
+  color: var(--body-text);
+  border-bottom: 1 px solid wheat;
 }
 
 /* hover line */
@@ -80,7 +85,7 @@
   width: 0%;
   height: 2px;
 
-  background: linear-gradient(90deg, #2a3937 0%, #ffffff 100%);
+  background: var(--gold);
 
   border-radius: 999px;
   transition: width 0.35s ease;
@@ -121,9 +126,9 @@
     cursor: pointer;
 
     /*border-radius: 14px;
-    border: white;
+    border: white;*/
 
-    background: white;*/
+    background: white;
 
     cursor: pointer;
   }
@@ -132,7 +137,7 @@
 
     width: 3rem;
     height: 2px;
-    background: white;
+    background: var(--gold);
     /*border-radius: 999px;*/
 
     transition: 0.3s ease;
@@ -145,7 +150,7 @@
     z-index: 998;
     width: 100%;
 
-    background: rgb(22, 53, 82);
+    background: var(--soft-beige);
     backdrop-filter: blur(12px);
 
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);

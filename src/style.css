@@ -124,13 +124,35 @@ a:hover {
 ul {
   padding-left: 0px;
 }
-.price-card li {
-  border-radius: 16px;
-  margin: 24px 0;
-  gap: 16px;
-  font-size: 1.3rem;
-  font-weight: 500;
-  color: var(--brown);
+.prices-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 3rem 0;
+}
+
+.price-card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 2rem;
+  text-align: center;
+
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.04),
+    0 12px 32px rgba(0, 0, 0, 0.06);
+
+  transition: transform 0.3s ease;
+}
+
+.price-card:hover {
+  transform: translateY(-4px);
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  color: #b89c6d; /* arany/beige irány */
 }
 
 /*.services-btn {
@@ -177,7 +199,16 @@ ul li {
 }*/
 /*#region Contact-Form */
 .contact-btn {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2rem auto 0;
+  width: fit-content;
+
+  padding: 12px 24px;
+  border-radius: 999px;
+  /*display: inline-block;*/
   padding: 0.6rem;
   color: var(--title);
   background-color: transparent;
@@ -189,6 +220,7 @@ ul li {
   line-height: 1;
   /*transition: transform 0.2s ease;*/
   margin-bottom: 2rem;
+  text-align: center;
 }
 .contact-btn:hover,
 .contact-form button:hover {
@@ -205,6 +237,7 @@ ul li {
   line-height: 1;
   /*transform: scale(1.1);*/
 }
+
 .popup-overlay {
   position: fixed;
   inset: 0;
@@ -246,15 +279,19 @@ a.button {
   text-align: center;
 }
 .hero {
+  position: relative;
   overflow: hidden;
-  /* height: 100vh;
-  width: 100%;
 
-  background-image: url("/img/02.webp");
+  background-image: url("/img/hero-bg.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: right center;
+}
 
-  background-position: right center;  EZ */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
 }
 .main {
   background-color: var(--dark-beige);
@@ -293,7 +330,7 @@ a.button {
 .symbol-img {
   display: block;
   margin-left: auto;
-  opacity: 0.2;
+  opacity: 0.4;
 }
 .about-text {
   margin-left: 2rem;
@@ -415,38 +452,82 @@ a.button {
 /*FAQ*/
 
 .faq-item {
-  padding: 1.2rem 0;
-  box-shadow: var(--shadow-soft);
-  margin-bottom: 1.5rem;
-  border-radius: 18px;
-  cursor: pointer;
+  background: #fff;
+  border-radius: 24px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.04),
+    0 12px 32px rgba(0, 0, 0, 0.06);
+
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+  transform: translateY(-2px);
 }
 
 .faq-question {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  cursor: pointer;
-  background: transparent;
-  font-size: 1.1rem;
-  font-weight: 400;
+
+  background: none;
   border: none;
 
-  text-align: left;
-}
-.faq-question:hover {
-  color: var(--terrakotta);
-}
-.sign {
-  padding-left: 24px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .faq-answer {
   margin-top: 1rem;
+  color: #5f5a54;
   line-height: 1.7;
-  color: var(--brown);
-  padding-left: 1rem;
+}
+.faq-icon {
+  font-size: 2rem;
+  font-weight: 200;
+  color: #b89c6d;
+  line-height: 1;
+}
+.feedback-card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 2rem;
+
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.04),
+    0 12px 32px rgba(0, 0, 0, 0.06);
+
+  position: relative;
+}
+
+/*FEEDBACK*/
+
+.quote-mark {
+  font-size: 3rem;
+  color: var(--gold);
+  line-height: 1;
+}
+.feedback-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.feedback-card p {
+  margin-top: 1rem;
+  line-height: 1.8;
+}
+
+.feedback-author {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
 }
 footer {
   z-index: 999;
@@ -472,6 +553,11 @@ footer a:hover {
 footer p {
   margin-top: 2rem;
   font-size: inherit;
+}
+footer .symbol-img {
+  margin: auto;
+  max-width: 10%;
+  opacity: 0.6;
 }
 
 .social-icons svg {
@@ -552,6 +638,15 @@ footer p {
   .about-text {
     margin-left: 0;
   }
+  /*.hero{background-image: url("/img/main-logo-symbol.png"); 
+ background-position: center;
+background-size: contain;
+opacity: 0.4;}*/
+  .symbol-img {
+    display: inline-block;
+    justify-items: center;
+  }
+
   .hero p {
     padding: 0;
   }
@@ -564,7 +659,11 @@ footer p {
   #services {
     padding: 0;
   }
-  footer .column-4 {
+  .feedback-grid,
+  .prices-grid {
+    grid-template-columns: 1fr;
+  }
+  footer .symbol-img {
     display: inline-block;
     justify-items: center;
   }
