@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import symbol from "../../assets/img/main-logo-symbol.png";
+import symbol from "../../assets/img/hero-bg-01.png";
 
 function Hero() {
   return (
@@ -21,7 +21,7 @@ function Hero() {
           </Link>
         </div>
         <div>
-          <img src={symbol} alt="About kép" className="symbol-img" />
+          {/*} <img src={symbol} alt="About kép" className="symbol-img" />*/}
         </div>
       </div>
     </div>

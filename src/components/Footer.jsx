@@ -25,7 +25,7 @@ function Footer() {
 
         <div className="social-icons">
           <a
-            href="https://www.facebook.com/profile.php?id=61571804105911"
+            href="https://www.facebook.com/yogaartmuhely"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -40,7 +40,7 @@ function Footer() {
             <FaInstagram />
           </a>
         </div>
-        <div className="footer-links">
+        <div>
           <img src={symbol} alt="About kép" className="symbol-img" />
         </div>
       </div>

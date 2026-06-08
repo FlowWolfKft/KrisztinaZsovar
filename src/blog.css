@@ -1,21 +1,19 @@
 :root {
-  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.12);
-  --dark-green: #3e524c;
-  --petrol-green: #094457;
-  --medium-green: #679587;
-  --green: #8a9e94;
-  --light-green: #b6c0b3;
+  --shadow-soft: 0 12px 32px rgba(120, 90, 60, 0.08);
+
   --homok: #d9d9d9;
-  --body-text: #434f49;
-  --pink: #e9a9c4;
-  --dark-pink: #cb2cbe;
+  --body-text: #2b2b2b;
   --title: #2a3937;
   --white: #fff;
-  --ice-blue: #e9faff;
-  --light-blue: #a0bbe4;
-  --dark-blue: #2a6aca;
   --grey: #acacac;
-  --turkiz: #4fc2c2;
+  --brown: #4f3c29;
+  --dark-beige: #f6f1e7;
+  --medium-beige: #cbbba0;
+  --soft-beige: #e7ddcf;
+  --terrakotta: #c98a72;
+  --simply-red: #a44768;
+  --beige: #c8b29b;
+  --gold: #a88057;
   --radius: 0.5rem;
 }
 *,
@@ -63,9 +61,9 @@
   margin-top: 3rem;
   padding: 0.8rem;
   opacity: 0.8;
-  color: var(--pink);
+  color: var(--gold);
 }
 .back-button:hover {
   opacity: 1;
-  color: var(--dark-pink);
+  color: var(--simply-red);
 }

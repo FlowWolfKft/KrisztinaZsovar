@@ -14,7 +14,7 @@ function PrivacyIntro() {
             Levelezési cím, panaszkezelés: 1021 Budapest, Széher út 7. fszt. 3.
           </li>
 
-          <li>E-mail: info@yogaart.hu</li>
+          <li>E-mail: krisztina.zsovar@gmail.com</li>
 
           <li>Telefonszám: 06 20 967 6211</li>
 

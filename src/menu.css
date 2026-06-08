@@ -1,5 +1,5 @@
 :root {
-  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.12);
+  --shadow-soft: 0 12px 32px rgba(120, 90, 60, 0.08);
 
   --homok: #d9d9d9;
   --body-text: #2b2b2b;
@@ -10,9 +10,11 @@
   --dark-beige: #f6f1e7;
   --medium-beige: #cbbba0;
   --soft-beige: #e7ddcf;
-  --radius: 0.5rem;
   --terrakotta: #c98a72;
+  --simply-red: #a44768;
+  --beige: #c8b29b;
   --gold: #a88057;
+  --radius: 0.5rem;
 }
 *,
 *:before,
@@ -35,6 +37,7 @@
   z-index: 999;
   backdrop-filter: blur(12px);
   box-shadow: var(--shadow-soft);
+  background-color: rgb(253, 253, 253, 0.08);
 }
 .nav-wrapper {
   display: flex;
@@ -44,11 +47,13 @@
 }
 /* ===== LOGO ===== */
 
-#logo a {
-  color: var(--gold);
-  font-size: 1.2rem;
-  letter-spacing: 0.12em;
-  font-weight: 700;
+.logo-link img {
+  width: 10%;
+  transition: 0.2s ease;
+}
+
+.logo-link:hover img {
+  transform: scale(1.05);
 }
 
 /* ===== MENU ===== */
@@ -85,7 +90,7 @@
   width: 0%;
   height: 2px;
 
-  background: var(--gold);
+  background: var(--grey);
 
   border-radius: 999px;
   transition: width 0.35s ease;

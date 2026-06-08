@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
+import logo from "../../assets/img/logo.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,7 +8,9 @@ function Navbar() {
     <header id="header">
       <div className="content-box nav-wrapper">
         <div id="logo">
-          <Link to="/">Zsóvár Krisztina</Link>
+          <Link to="/" className="logo-link">
+            <img src={logo} alt="Logo" />
+          </Link>
         </div>
 
         <div className="nav-wrapper">

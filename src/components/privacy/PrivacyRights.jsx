@@ -359,7 +359,7 @@ function PrivacyRights() {
           Rendelete (a továbbiakban: Rendelet. GDPR) és a 2011. évi CXII. tv. (a
           továbbiakban: Infotv.) alapján.
         </p>
-        <p>Budapest, 2025. december 1.</p>
+        <p>Budapest, 2026. június 1.</p>
         <div>
           <button className="contact-btn" onClick={() => window.print()}>
             Nyomtatás

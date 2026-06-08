@@ -25,7 +25,7 @@ function WhyCreate() {
               Az energiaszintem
             </li>
             <li>
-              <FaSeedling className="icon" /> A kedvem
+              <FaSeedling className="icon" />A kedvem
             </li>
             <li>
               <FaSeedling className="icon" />A nőiességemhez való kapcsolódásom

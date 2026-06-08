@@ -222,25 +222,28 @@ function Description() {
 
                     <ul>
                       <li>
-                        <FaSeedling className="icon" /> gyulladáscsökkentő
-                        életmódra
+                        <FaSeedling className="icon" />
+                        gyulladáscsökkentő életmódra
                       </li>
                       <li>
-                        <FaSeedling className="icon" /> bélflóra támogatásra
+                        <FaSeedling className="icon" />
+                        bélflóra támogatásra
                       </li>
                       <li>
-                        <FaSeedling className="icon" /> hormonbarát étkezési
-                        szemléletre
+                        <FaSeedling className="icon" />
+                        hormonbarát étkezési szemléletre
                       </li>
                       <li>
                         <FaSeedling className="icon" />
                         energiaszint támogatására
                       </li>
                       <li>
-                        <FaSeedling className="icon" /> testsúlyoptimalizálásra
+                        <FaSeedling className="icon" />
+                        testsúlyoptimalizálásra
                       </li>
                       <li>
-                        <FaSeedling className="icon" /> alvás támogatására
+                        <FaSeedling className="icon" />
+                        alvás támogatására
                       </li>
                       <li>
                         <FaSeedling className="icon" />
@@ -268,17 +271,19 @@ function Description() {
                 <h3> MOZGÁS- Szeretettel, nem kényszerből</h3>
                 <ul>
                   <li>
-                    <FaSeedling className="icon" /> Nem kell sportosnak lenned.
+                    <FaSeedling className="icon" />
+                    Nem kell sportosnak lenned.
                   </li>
                   <li>
-                    <FaSeedling className="icon" /> Nem kell fittnek lenned..
+                    <FaSeedling className="icon" />
+                    Nem kell fittnek lenned..
                   </li>
                   <li>
                     <FaSeedling className="icon" />
                     Nem kell már most motiváltnak lenned.
                   </li>
                   <li>
-                    <FaSeedling className="icon" /> A rendszer fokozatosan épít
+                    <FaSeedling className="icon" />A rendszer fokozatosan épít
                     fel.
                   </li>
                 </ul>
