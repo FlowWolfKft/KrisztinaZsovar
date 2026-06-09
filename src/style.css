@@ -279,13 +279,14 @@ a.button {
   text-align: center;
 }
 .hero {
+  padding: 2rem 0;
   overflow: hidden;
-
-  background-image: url("/img/hero-bg-01.png");
+  background: linear-gradient(90deg, #ffffff 0%, #f3f1ef 55%, #e3d7cc 100%);
+  /*background-image: url("/img/hero-bg-01.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-position-y: 40%;
+  background-position-y: 40%;*/
 }
 
 .main {
@@ -309,7 +310,18 @@ a.button {
 .icon-svg {
   text-align: center;
 }
+.hero-img {
+  margin-bottom: 2rem;
+  width: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+  opacity: 0.9;
+}
 
+.hero-text {
+  margin: 2rem 0;
+}
 /*.hero p {
   padding: 0 24px;
 }
@@ -322,7 +334,7 @@ a.button {
 }
 
 .about-img {
-  margin: 1.5rem 0;
+  margin-top: 2rem;
   width: 85%;
   border-radius: 18px;
   object-fit: cover;

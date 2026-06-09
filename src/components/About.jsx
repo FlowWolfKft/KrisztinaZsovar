@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaSeedling } from "react-icons/fa";
-import aboutImg from "../../assets/img/about-03.png";
+import aboutImg from "../../assets/img/about.webp";
 import { RiH1 } from "react-icons/ri";
 
 function About() {

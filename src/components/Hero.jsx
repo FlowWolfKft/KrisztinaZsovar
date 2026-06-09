@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import symbol from "../../assets/img/hero-bg-01.png";
+import symbol from "../../assets/img/02.webp";
 
 function Hero() {
   return (
     <div className="hero">
       <h1>NŐI ESSZENCIA (Femme essense)</h1>
       <div className="content-box column-2">
-        <div>
+        <div className="hero-text"> 
           <h2>8 hetes online női transzformációs életmódprogram</h2>
           <h3>
             Kifejezetten azoknak a nőknek, akik szeretnék visszakapni az
@@ -21,7 +21,7 @@ function Hero() {
           </Link>
         </div>
         <div>
-          {/*} <img src={symbol} alt="About kép" className="symbol-img" />*/}
+           <img src={symbol} alt="About kép" className="hero-img" />
         </div>
       </div>
     </div>
