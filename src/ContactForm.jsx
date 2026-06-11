@@ -31,6 +31,28 @@ function ContactForm({ forras }) {
   const handleFormSubmit = async (event) => {
     event.stopPropagation();
     event.preventDefault();
+    fetch(
+      "https://docs.google.com/forms/d/e/1FAIpQLSczrsf2diLdd5KbLeJ5ZRTq3f7EVmbbVW7HsqR_jd9uvQkYEA/formResponse",
+      {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: new URLSearchParams({
+          "entry.263556418": formName,
+          "entry.1342674512": formEmail,
+        }),
+      },
+    ).then((response) => {
+      setFormName("");
+      setFormEmail("");
+      setShowPopup(true);
+    });
+  };
+  /*const handleFormSubmitEmail = async (event) => {
+    event.stopPropagation();
+    event.preventDefault();
 
     fetch("https://email.pixelliberty.hu/email", {
       method: "POST",
@@ -60,7 +82,7 @@ function ContactForm({ forras }) {
     return false;
     //
   };
-
+*/
   return (
     <>
       <form
