@@ -90,7 +90,7 @@ a {
   word-break: break-all;
 }
 a:hover {
-  color: var(--dark-beige);
+  color: var(--gold);
 }
 .essense {
   font-family: "Playfair display";
@@ -366,7 +366,7 @@ a.button {
   border: 1px solid var(--gold);
   border-radius: 16px;
   background: #ffffff08;
-  color: white;
+  color: var(--gold);
   font-size: 1rem;
   transition: 0.3s ease;
 }

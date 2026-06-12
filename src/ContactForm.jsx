@@ -32,7 +32,7 @@ function ContactForm({ forras }) {
     event.stopPropagation();
     event.preventDefault();
     fetch(
-      "https://docs.google.com/forms/d/e/1FAIpQLSczrsf2diLdd5KbLeJ5ZRTq3f7EVmbbVW7HsqR_jd9uvQkYEA/formResponse",
+      "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdIhYU27z9Bc_tr-EulUFgRfL6Gv8mNrNKIOUsJrdy0ICo99Q/formResponse",
       {
         method: "POST",
         mode: "no-cors",
@@ -40,8 +40,8 @@ function ContactForm({ forras }) {
           "Content-Type": "application/x-www-form-urlencoded",
         },
         body: new URLSearchParams({
-          "entry.263556418": formName,
-          "entry.1342674512": formEmail,
+          "entry.131853682": formName,
+          "entry.717723680": formEmail,
         }),
       },
     ).then((response) => {
@@ -154,7 +154,10 @@ function ContactForm({ forras }) {
       {showPopup && (
         <div className="popup-overlay">
           <div className="popup">
-            <p>Köszönöm! Az üzeneted sikeresen elküldve.</p>
+            <p>
+              Köszönöm! Megkaptam a jelentkezést, hamarosan felveszem Veled a
+              kapcsolatot.
+            </p>
 
             <button onClick={() => setShowPopup(false)}>OK</button>
           </div>
