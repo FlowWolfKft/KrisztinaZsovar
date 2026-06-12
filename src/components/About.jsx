@@ -62,6 +62,14 @@ function About() {
               Mert a női jólét nem luxus. Hanem alapja mindannak, amit adni
               tudunk a családunknak, a munkánknak és önmagunknak.
             </p>
+            <p>
+              {" "}
+              Ha készen állsz egy csodás, transzformációs utazásra, csatlakozz
+              Hozzám!
+            </p>
+            <Link to="/Contact" className="contact-btn">
+              Jelentkezem!
+            </Link>
           </div>
         </div>
       </div>{" "}

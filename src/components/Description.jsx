@@ -48,13 +48,16 @@ function Description() {
                   mint régen?
                 </li>
                 <li>
-                  <FaSeedling className="icon" /> Makacsabbak a kilók?
+                  <FaSeedling className="icon" />
+                  Makacsabbak a kilók?
                 </li>
                 <li>
-                  <FaSeedling className="icon" /> Rosszabbul alszol?
+                  <FaSeedling className="icon" />
+                  Rosszabbul alszol?
                 </li>
                 <li>
-                  <FaSeedling className="icon" /> Kevesebb az energiád?
+                  <FaSeedling className="icon" />
+                  Kevesebb az energiád?
                 </li>
               </ul>
 
@@ -117,29 +120,32 @@ function Description() {
                   mit egyél
                 </li>
                 <li>
-                  <FaSpa className="icon" /> hogyan mozogj
+                  <FaSpa className="icon" />
+                  hogyan mozogj
                 </li>
                 <li>
                   {" "}
-                  <FaSpa className="icon" /> hogyan kezeld a hormonális
-                  változásokat
+                  <FaSpa className="icon" />
+                  hogyan kezeld a hormonális változásokat
                 </li>
                 <li>
                   {" "}
-                  <FaSpa className="icon" /> hogyan csökkentsd a gyulladásos
-                  terhelést
+                  <FaSpa className="icon" />
+                  hogyan csökkentsd a gyulladásos terhelést
                 </li>
                 <li>
-                  <FaSpa className="icon" /> hogyan szerezd vissza az energiádat
-                </li>
-                <li>
-                  {" "}
-                  <FaSpa className="icon" /> hogyan szeresd újra a testedet
+                  <FaSpa className="icon" />
+                  hogyan szerezd vissza az energiádat
                 </li>
                 <li>
                   {" "}
-                  <FaSpa className="icon" /> hogyan kapcsolódj vissza a
-                  nőiességedhez
+                  <FaSpa className="icon" />
+                  hogyan szeresd újra a testedet
+                </li>
+                <li>
+                  {" "}
+                  <FaSpa className="icon" />
+                  hogyan kapcsolódj vissza a nőiességedhez
                 </li>
               </ul>
             </div>

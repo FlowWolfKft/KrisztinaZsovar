@@ -375,7 +375,7 @@ a.button {
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  /ackground: var(--white);
+  background: var(--white);
   color: var(--body-text);
 }
 
@@ -633,14 +633,14 @@ footer .symbol-img {
 }
 
 .cookie-buttons button:first-child {
-  background: var(--turkiz);
+  background: var(--gold);
   color: var(--white);
 }
 
 .cookie-buttons button:last-child {
-  background: var(--petrol-green);
+  background: var(--medium-beige);
   border: 1px solid #fff;
-  color: #fff;
+  color: var(--body-text);
 }
 .cookie-buttons button:last-child:hover,
 .cookie-buttons button:first-child:hover {
