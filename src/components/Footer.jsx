@@ -33,7 +33,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://instagram.com/pixel.liberty"
+            href="https://www.instagram.com/yogaart.social/"
             target="_blank"
             rel="noopener noreferrer"
           >
