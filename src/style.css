@@ -657,6 +657,10 @@ footer .symbol-img {
   .about-text {
     margin-left: 0;
   }
+  .symbol-container {
+    text-align: center;
+  }
+
   /*.hero{background-image: url("/img/main-logo-symbol.png"); 
  background-position: center;
 background-size: contain;

@@ -18,6 +18,9 @@ import {
   Flower,
   Flower2Icon,
   Sprout,
+  Sun,
+  Sparkles,
+  Wand,
 } from "lucide-react";
 import symbol from "../../assets/img/main-logo-symbol.png";
 
@@ -109,7 +112,7 @@ function Description() {
               <ul>
                 {" "}
                 <li className="icon-svg">
-                  <Rose className="main-icon" />
+                  <Salad className="main-icon" />
                 </li>
                 <p>
                   Ez a program úgy lett megalkotva, hogy ne kelljen külön
@@ -153,7 +156,7 @@ function Description() {
               <ul>
                 {" "}
                 <li className="icon-svg">
-                  <Apple className="main-icon" />
+                  <Rose className="main-icon" />
                 </li>
                 <p>Itt egy komplex, megtartó rendszer vár Rád.</p>
                 <p>Neked szól, ha:</p>
@@ -204,10 +207,8 @@ function Description() {
               Jelentkezem!
             </Link>
           </div>
-          <div>
-            <div>
-              <img src={symbol} alt="About kép" className="symbol-img" />
-            </div>
+          <div className="symbol-container">
+            <img src={symbol} alt="About kép" className="symbol-img" />
           </div>
         </div>
       </div>
