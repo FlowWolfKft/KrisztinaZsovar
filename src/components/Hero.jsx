@@ -5,23 +5,22 @@ import symbol from "../../assets/img/02.webp";
 function Hero() {
   return (
     <div className="hero">
-      <h1>NŐI ESSZENCIA (Femme essense)</h1>
+      <h1>Szépülj!</h1>
       <div className="content-box column-2">
-        <div className="hero-text"> 
-          <h2>8 hetes online női transzformációs életmódprogram</h2>
-          <h3>
-            Kifejezetten azoknak a nőknek, akik szeretnék visszakapni az
-            energiájukat, a nőiességüket és a ragyogásukat. Ha nem csak fogyni
-            szeretnél, hanem újra Nőnek akarod érezni magad.
-          </h3>
+        <div className="hero-text">
+          <h2>
+            Ragyogóbb bőr • Feszesebb és rugalmasabb test • Nőies kisugárzás
+          </h2>
+          <h3>Szeress bele a testedbe!</h3>
+          <h3>30 napos nyári szépségprogram nőknek</h3>
           <h3>Időpont:</h3>
-          <h2>2026. július 1. - augusztus 26.</h2>
+          <h2> 2026. augusztus 1- 31.</h2>
           <Link to="/Contact" className="contact-btn">
             Jelentkezem!
           </Link>
         </div>
         <div>
-           <img src={symbol} alt="About kép" className="hero-img" />
+          <img src={symbol} alt="About kép" className="hero-img" />
         </div>
       </div>
     </div>
