@@ -8,19 +8,19 @@ function Prices() {
   const prices = [
     {
       title: "Early Bird",
-      price: "110.000 Ft",
-      note: "június 14-ig",
+      price: "65.000 Ft",
+      note: "július 15-ig",
     },
     {
       title: "Normál ár",
-      price: "160.000 Ft",
-      note: "június 15-től",
+      price: "90.000 Ft",
+      note: "július 15-től",
     },
-    {
+    /*{
       title: "Páros jelentkezés",
       price: "200.000 Ft",
       note: "2 fő",
-    },
+    }, */
   ];
 
   return (

@@ -6,50 +6,15 @@ import aboutImg from "../../assets/img/07.webp";
 function WhyCreate() {
   return (
     <div className="content-box">
-      <h1>Miért hoztam létre ezt a programot?</h1>
+      <h1>Ha érzed, hogy hív, várlak szeretettel!</h1>
       <div className="column-2">
         <div>
-          <h3>
-            Néhány évvel ezelőtt én magam is átmentem egy erős testi változáson.
-          </h3>
-          <p>
-            A korábban energikus, fit, ragyogó önmagam helyett azt éreztem, hogy
-            valami megváltozott
-          </p>
-          <ul>
-            <li>
-              <FaSeedling className="icon" />A testem
-            </li>
-            <li>
-              <FaSeedling className="icon" />
-              Az energiaszintem
-            </li>
-            <li>
-              <FaSeedling className="icon" />A kedvem
-            </li>
-            <li>
-              <FaSeedling className="icon" />A nőiességemhez való kapcsolódásom
-            </li>
-          </ul>
-          <p>
-            És megszületett bennem a kérdés: Hogyan találhatok vissza
-            önmagamhoz?
-          </p>
-          <p>Ez indított el egy mély kutatásban:</p>
+          <h2>Itt a helyed, ha:</h2>
+          <h3>Nem tökéletesebb nővé szeretnél válni</h3>
+          <h3>Nem egy újabb szépségideálnak akarsz megfelelni</h3>
 
-          <ul>
-            <li>✓ női életmód, táplálkozás</li>
-
-            <li>✓ regeneráció, jóga</li>
-
-            <li>✓ hormonbarát szemlélet, energetikai munka</li>
-
-            <li>✓ önszeretet</li>
-          </ul>
-          <h3>
-            Így született meg a{" "}
-            <span className="essense"> Női Esszencia</span>{" "}
-          </h3>
+          <h3>Csak szeretnél újra jól érezni magad a testedben</h3>
+          <h3>Szeress bele a testedbe</h3>
         </div>
         <div>
           <img src={aboutImg} alt="About kép" className="about-img" />

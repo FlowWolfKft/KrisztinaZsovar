@@ -5,11 +5,11 @@ import { FaSeedling } from "react-icons/fa";
 
 function FAQ() {
   const faqs = [
-    {
+    /*{
       question: "Mi van, ha teljesen kezdő vagyok?",
       answer:
         "A programot úgy alakítottam ki, hogy minden szinten könnyen követhető legyen, akkor is, ha évek óta jógázol, akkor is, ha utoljára tesi órán mozogtál. A részvétel kortól és edzettségtől független.",
-    },
+    },*/
     {
       question: "Mi van, ha nincs időm?",
       answer:
@@ -24,11 +24,11 @@ function FAQ() {
       answer:
         "Semmi gond. Lesznek egyszerű, kezdő, 10 perces mozgások, amik elindítanak. ",
     },
-    {
+    /*{
       question: "Mi van, ha hormonálisan kibillentnek érzem magam?",
       answer:
         "A program egyik fő célja, hogy ezeket a diszkomfrotokat átdolgozzuk, a hormonális és lelki egyensúlyunkat megteremtsük.",
-    },
+    },*/
   ];
 
   const [openIndex, setOpenIndex] = useState(null);
